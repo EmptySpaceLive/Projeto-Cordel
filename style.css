@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{
+    margin: 0%;
+    background-color: #CDD1DE;
+}
+header{
+    background-color:#160C28;
+    padding: 20px;
+}
+
+header h1{
+    color: aliceblue;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+header p{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+section  > p{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    left: 30px;
+
+    background-color: #160c2844;
+
+}
+
+.FundoBranco{
+    position: relative;
+    height: 500px;
+    width: 100vw;
+}
+.FundoImage1{
+    height: 500px;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+.FundoImage2{
+    height: 500px;
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+footer{
+    background-color: #160C28;
+}
+
+footer p{
+    text-align: center;
+    margin: 0%;
+    padding: 5px;
+    color: aliceblue;
+}
