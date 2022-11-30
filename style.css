@@ -27,6 +27,9 @@ header h1{
     font-family: var(--fontTitulo);
     text-align: center;
     font-style: normal;
+    font-variant: small-caps;  
+    
+
 }
 
 header p{
@@ -103,6 +106,7 @@ header a:hover{
     background-attachment: fixed;
     background-position: right bottom;
     font-family: var(--fontText);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
 }
 
 .PImage1{
@@ -125,7 +129,9 @@ header a:hover{
     background-attachment: fixed;
     background-position: right bottom;
     font-family: var(--fontText);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
 }
+
 
 .PImage2{
     color: var(--cor01);
@@ -154,3 +160,6 @@ footer a{
     text-decoration: underline;
     color: var(--cor01);
 }
+
+
+
